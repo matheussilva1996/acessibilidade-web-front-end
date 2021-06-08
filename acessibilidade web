@@ -1,0 +1,54 @@
+Leitores para acessibilidade web:
+
+1. jaws screen reader
+2. NV Access
+3. voiceover mac
+4. narrator windows
+5. linux universal access
+
+site focado em acessibilidade web Web AIM
+
+evitar mais de um <H1> na página;
+
+usar HTML5 semântico que faça sentido;
+
+slide acessibilidade: 
+
+https://pt.slideshare.net/MarinaDomingues7/acessibilidade-por-que-deixarmos-de-ser-amadores-para-um-pblico-que-espera-mais-de-ns
+
+Estudo brasileiro:
+
+http://www.estudoinclusivo.com.br
+
+Estudo global, de 2018:
+
+https://webaim.org/projects/screenreadersurvey8/
+
+ao escrever codigo e precisar que uma linha seja lida em outra linguagem, voce adiciona o atributo lang="en" e ele lerá aquela linha especifica em outra lingua
+
+alt, para legenda de imagem
+title - tambem lê pelos programas. 
+cuidado para nao colocar os dois.
+
+cuidado ao usar uma imagem que é apenas para deixar bonitinho, colocar o alt sem nada. assim nao atrapalha na leitura do leitor cego. 
+caso faça sentido, ai sim, coloca um alt com descricao.
+
+facebook implementou uma ferramenta alt para gerar automatico chamado DETECTRON
+
+palestra de acessibilidae: http://www.reinaldoferraz.com.br/acessibilidade-seo-e-svg/
+
+bracket uma boa ide para desenvolver aplicacoes web
+
+ccs pode afetar na acessibilidade da pagina. list-style : disc -> list-style none resolveu
+
+https://webaim.org/techniques/css/invisiblecontent/
+
+mais sobre role de atalhos de programas de voz: https://www.w3.org/TR/using-aria/#intro
+
+todos atalhos dos programas de voz: https://www.tpgi.com/basic-screen-reader-commands-for-accessibility-testing/
+
+usar placeholder quando tiver campo de preencher para ele falar o que precisa ser escrito
+
+readonly quando campo for desabilitado, mas a leitura é permitida pelos programas
+
+pode usar o script do hand talk. 
